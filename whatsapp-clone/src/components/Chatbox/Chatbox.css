@@ -1,0 +1,94 @@
+/* IMPORTANT NOTE: 'MuiSvgIcon-root' is the default class given to material UI Icons*/
+
+.chatbox {
+    display: flex;
+    flex-direction: column;
+    flex: 0.65
+}
+
+.chatbox-header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray
+}
+
+.chatbox-header-info {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.chatbox-header-info > h3 {
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.chatbox-header-info > p {
+    color: gray;
+}
+
+.chatbox-body {
+    flex: 1;
+    background-image:url('https://mcdn.wallpapersafari.com/medium/4/11/WofyVJ.png');
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+}
+
+.chatbox-message {
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.chatbox-timestamp {
+    margin-left: 10px;
+    font-size: xx-small;
+}
+
+.chatbox-name {
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    font-size: x-small;
+}
+
+.chatbox-receiver {
+    margin-left: auto;
+    background-color: #dcf8c6;
+}
+
+.chatbox-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray
+}
+
+.chatbox-footer > form {
+    flex: 1;
+    display: flex;
+}
+
+.chatbox-footer > form > input {
+    flex: 1;
+    outline-width: 0;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+}
+
+.chatbox-footer > form > button {
+    display: none
+}
+
+.chatbox-footer > .MuiSvgIcon-root {
+    padding: 10px;
+    color: gray;
+}
