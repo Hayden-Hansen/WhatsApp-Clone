@@ -1,6 +1,6 @@
 # WhatsApp-Clone
 
-This WhatsApp Clone is an excellent front end project to make, and it utilizes MongoDB to store messages and Pusher to display messages in real time!
+This WhatsApp Clone is an excellent front end project to make, and it utilizes the MERN stack, and Pusher to display messages in real time!
 
 I began making this app as I saw the tutorial on Youtube! Here is the link to that video: https://www.youtube.com/watch?v=gzdQDxzW2Tw&t=10936s
 
